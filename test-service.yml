@@ -1,2 +1,4 @@
 test:
   property: Test Profile Dev
+server:
+  port: 8001
