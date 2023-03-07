@@ -1,4 +1,8 @@
 test:
   property: Test Profile Dev
 server:
-  port: 8001
+  port: 0
+
+eureka:
+  instance:
+    instance-id: ${spring:application:name}:${random:uuid}
